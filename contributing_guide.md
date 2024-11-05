@@ -14,6 +14,6 @@ Before you begin, please make sure if someone else is already working on the sam
 ![alt text](static/contributing_guide/contributing_guide_1.png)
 
 3. Fill out the form and click the submit new issue button on the bottom right corner.
-![alt text](image.png)
+![alt text](static/contributing_guide/contributing_guide_2.png)
 
 We are looking forward to your contributions. Thank you.
