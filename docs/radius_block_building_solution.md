@@ -2,10 +2,10 @@
 
 ## Introduction
 Radius block building solution for rollups consists of the following modules:
-- [Secure RPC](modules/secure_rpc.md)
-- [Distributed Key Generator](modules/distributed_key_generator.md)
-- [Sequencer](modules/sequencer.md)
-- [Seeder](modules/seeder.md)
+- [Secure RPC](modules/secure_rpc.md) [(GitHub)](https://github.com/radiusxyz/secure-rpc)
+- [Distributed Key Generator](modules/distributed_key_generator.md) [(GitHub)](https://github.com/radiusxyz/distributed_key_generation)
+- [Sequencer](modules/sequencer.md) [(GitHub)](https://github.com/radiusxyz/sequencer)
+- [Seeder](modules/seeder.md) [(GitHub)](https://github.com/radiusxyz/seeder)
   
 We call it module because each does a specific job(s) to achieve our goal: enriching rollup economy and providing a new source of income by reinvesting captured MEV in rollups. To better understand how each module works, we need to view the system from the perspective of a transaction, which we describe as a transaction journey.
 
@@ -25,9 +25,4 @@ The encrypted transaction in Secure RPC is forwarded to one of the sequencers in
 ### Decryption and Rollup Executor
 When the rollup executor requests the block for execution, the leader sequencer starts decrypting the transaction with the decryption key fetched from Distributed Key Generator. After filling the block with decrypted transactions, the leader proposes the block to the executor and submits a block commitment for followers to validate. After this point, anyone including the user with order commitment can challenge the leader in case of failed order validation.
 
-The execution of the proposed block by the rollup executor marks the end of the journey. For those who finds this explanation too vague to be useful or wants to know more about the implementation details, I suggest you to visit our Github repositories for each module.
-
-- [Secure RPC](https://github.com/radiusxyz/secure-rpc)
-- [Distributed Key Generator](https://github.com/radiusxyz/distributed_key_generation)
-- [Sequencer](https://github.com/radiusxyz/sequencer)
-- [Seeder](https://github.com/radiusxyz/seeder)
+The execution of the proposed block by the rollup executor marks the end of the journey. For those who finds this explanation too vague to be useful or wants to know more about the implementation details, I suggest you to visit our GitHub repositories for each module.
