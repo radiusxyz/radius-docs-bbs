@@ -6,7 +6,7 @@ The purpose of Liveness is to provide decentralized block-building service to ro
 
 In the event of a sequencer failure, the distributed nature of the network allows the remaining sequencers to continue to build blocks without interruption. This redundancy enhances the robustness of the system against individual node failures.
 
-Implemented with Smart Contract on Ethereum, Radius uses Ethereum as a [service discovery](https://glossary.cncf.io/service-discovery/). Sequencers are required to register on Liveness Contract and [Seeder](modules/seeder.md) with a cluster ID to be able to build and suggest a block for rollup executors in the same cluster.
+Implemented with Smart Contract on Ethereum, Radius uses Ethereum as a [service discovery](https://glossary.cncf.io/service-discovery/). Sequencers are required to register on Liveness Contract and [Seeder]([modules/seeder.md](https://github.com/radiusxyz/seeder)) with a cluster ID to be able to build and suggest a block for rollup executors in the same cluster.
 
 ## Leader Selection
 There are two arguments to selecting a leader:

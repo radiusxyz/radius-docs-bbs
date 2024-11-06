@@ -11,8 +11,8 @@ In addition, all Rust projects of Radius adhere to the [Rust Code of Conduct](ht
 
 Any violation of the code of conduct can be reported to our maintainer at [kanet@theradius.xyz](mailto:kanet@theradius.xyz).
 
-# Contribution Guidelines
-The contribution guidelines can be found [here](contribution_guidelines.md).
+# Contributing Guide
+The contributing guide can be found [here](contributing_guide.md).
 
 # Getting Help
 Guidelines for getting help can be found [here](getting_help.md).
