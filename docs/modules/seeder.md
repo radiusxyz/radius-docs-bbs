@@ -1,5 +1,5 @@
 # Seeder
-Seeder is responsible for managing the sequencer RPC URL. As a simple key-value storage, it stores the sequencer address as a key and corresponding RPC URLs as a value. A sequencer who wishes to register on the Seeder must be registered on [Liveness Contract]() prior to registering on the Seeder.
+Seeder is responsible for managing the sequencer RPC URL. As a simple key-value storage, it stores the sequencer address as a key and corresponding RPC URLs as a value. A sequencer who wishes to register on the Seeder must be registered on Liveness Contract prior to registering on the Seeder.
 
 ## Registration
 When registering, a sequencer sends a signed message of its address, external RPC URL, cluster RPC URL and the cluster ID it receives as a result of registering on Liveness contract. 
