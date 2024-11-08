@@ -1,5 +1,5 @@
 # Contributing Guide
-We encourage everyone to get involved in any stage of contribution. We appreciate every contribution no matter how small it is and you don't have to be an expert to become a contributor. Think of this guide as a starting point. Also, please refer to the [community guidelines](community_guidelines.md) before making a contribution. 
+Contributions to the Radius Sequencer project are welcome and greatly appreciated! Whether you are reporting a bug, suggesting new features, improving documentation, or contributing code, your help is vital to making Radius even better. Every contribution is valuable no matter how small it is and you don't have to be an expert to become a contributor. Also, please refer to the [community guidelines](community_guidelines.md) before making a contribution. 
 
 ## Using "Issues"
 Before you begin, please make sure if someone else is already working on the same issue or your issue has already been resolved and waiting to be merged on the upcoming PR to save your time and effort in filing an issue. The following serves as a guide for a first-timer.
